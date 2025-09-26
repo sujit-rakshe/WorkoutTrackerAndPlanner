@@ -1,0 +1,31 @@
+
+.navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.9); /* Navbar background color */
+            padding: 10px;
+            height:45px;
+            position:sticky;
+            top:0;
+        }
+
+        .navbar a {
+            color: #ffffff; /* Navbar link text color */
+            text-decoration: none;
+            background-color: transparent;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            
+        }
+
+        .navbar span a:hover {
+            background-color: rgba(252, 44, 3, 1); /* Navbar link background color on hover */
+            font-size: 1.3em;
+        }
+        
+.navbar b {
+		font-weight: bold; /* Set the font weight to bold */
+    font-size: 1.5rem;
+}

@@ -1,0 +1,112 @@
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 6
+        WHEN 2 THEN 11
+        WHEN 3 THEN 6
+        WHEN 4 THEN 11
+        WHEN 5 THEN 6
+        WHEN 6 THEN 11
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 3;
+
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 1
+        WHEN 2 THEN 11
+        WHEN 3 THEN 1
+        WHEN 4 THEN 11
+        WHEN 5 THEN 1
+        WHEN 6 THEN 11
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 4;
+
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 7
+        WHEN 2 THEN 8
+        WHEN 3 THEN 11
+        WHEN 4 THEN 7
+        WHEN 5 THEN 8
+        WHEN 6 THEN 11
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 5;
+
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 2
+        WHEN 2 THEN 3
+        WHEN 3 THEN 11
+        WHEN 4 THEN 2
+        WHEN 5 THEN 3
+        WHEN 6 THEN 11
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 6;
+
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 7
+        WHEN 2 THEN 8
+        WHEN 3 THEN 11
+        WHEN 4 THEN 9
+        WHEN 5 THEN 10
+        WHEN 6 THEN 8
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 7;
+
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 2
+        WHEN 2 THEN 3
+        WHEN 3 THEN 11
+        WHEN 4 THEN 4
+        WHEN 5 THEN 5
+        WHEN 6 THEN 3
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 8;
+
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 9
+        WHEN 2 THEN 10
+        WHEN 3 THEN 8
+        WHEN 4 THEN 9
+        WHEN 5 THEN 10
+        WHEN 6 THEN 8
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 9;
+
+UPDATE routineworkouts
+SET workout_id = 
+    CASE sequence
+        WHEN 1 THEN 4
+        WHEN 2 THEN 5
+        WHEN 3 THEN 3
+        WHEN 4 THEN 4
+        WHEN 5 THEN 5
+        WHEN 6 THEN 3
+        WHEN 7 THEN 11
+        ELSE workout_id
+    END
+WHERE routine_id = 10;
+

@@ -1,0 +1,94 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+            margin: 0;
+            padding: 0;
+            align-items:Center;
+            background-image: url('../src/bg.jpg'); /* Replace 'bg.jpg' with your actual background image */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position:center;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+            color: #ffffff; /* Text color */
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+           
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 1); /* Button background color */
+            color: #ffffff; /* Button text color */
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: rgba(0, 0, 0, 0.8); /* Button background color on hover */
+        }
+       .container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(252, 44, 3, 1); /* Button background color */
+    color: #ffffff; /* Button text color */
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.container a:hover {
+		
+    background-color: rgba(252, 44, 3, 0.9); /* Button background color on hover */
+    color: #000; /* Change text color on hover if needed */
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1) ; /* Yellow glow effect */
+}
+
+
+        
+        
+.column {
+    float: left;
+    padding: 10px;
+    
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: auto;
+}
+
+.row:after {
+width:100%
+    content: "";
+    display: table;
+    clear: both;
+}
